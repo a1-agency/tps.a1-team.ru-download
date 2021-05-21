@@ -1,0 +1,64 @@
+body {
+    font-family: 'Chela One', cursive;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.text_pdf{
+    text-align: center;
+}
+
+.text{
+    
+    margin-bottom: 20px;
+   
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Chela One', cursive;
+}
+.text:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+.social{
+    text-align: center;
+    padding-top: 30px;
+}
+.social_facebook {
+    /* height: 50px;
+    padding-top: 20px; */
+    
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #1b97d4;
+    margin-right: 4px;
+    transition: background .1s linear;
+}
+
+.social_facebook:hover {
+    background-color: blueviolet;
+}
+}
